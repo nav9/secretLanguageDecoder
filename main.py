@@ -44,7 +44,7 @@ def main():
         log.error("File not found. Please enter a valid filename.")
         return    
     
-    text.upper()
+    text = text.upper()
     result = encode_decode_text(text, string1, string2)
 
     log.info(f"Result: \n{result}")
